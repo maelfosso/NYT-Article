@@ -1,0 +1,143 @@
+/* *******FOOTER***** */
+.foot-story-section {
+    float: left;
+    margin-top: 30px;
+    margin-right: 20px;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    padding-top: 5px;
+}
+
+.foot-story-header {
+    float: left;
+    padding: 5px 0;
+    font-weight: 700;
+    font-family: "nyt-franklin",arial,helvetica,sans-serif;
+    font-size: 16px;
+}
+
+.foot-story-link {
+    float: right;
+    padding: 5px 0;
+    font-family: "nyt-franklin",arial,helvetica,sans-serif;
+    font-size: 11px;
+}
+
+.trending-link { float: left; }
+
+.stories-container {
+    height: 480px;
+    clear: both;
+}
+
+#single-line { height: 240px; }
+
+.foot-story-holder {
+    width: 210px;
+    height: 240px;
+    float: left;
+    margin-right: 35px;
+    padding-top: 5px;
+}
+
+.foot-story-holder:nth-child(3n) { margin-right: 0; }
+
+.foot-story-holder p {
+    font-size: 14.5px;
+    line-height: 1.4;
+    font-weight: 500;
+    font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;
+    color: #000;
+}
+
+.foot-story-holder p:hover { text-decoration: underline; }
+
+#trilobites-footer {
+    font-size: 11px;
+    font-weight: 700;
+}
+
+#recommended {
+    margin-top: 0;
+    height: 256px;
+}
+
+.foot-trending-section {
+    margin-top: 30px;
+    margin-left: 60px;
+    width: 360px;
+    float: left;
+    padding-top: 5px;
+    border-top: 1px solid #ccc;
+}
+
+.foot-trending-header {
+    padding: 5px 0 15px 0;
+    font-weight: 700;
+    font-family: "nyt-franklin",arial,helvetica,sans-serif;
+    font-size: 11px;
+}
+
+.trending-list { counter-reset: li; }
+
+.trending-list li{
+    height: 52px;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 6px 0 6px 3px;
+}
+
+.trending-list li:before {
+    counter-increment: li;
+    content: counter(li) ".";
+    float: left;
+    padding-top: 10px;
+    padding-right: 8px;
+    font-size: 18px;
+}
+
+.trending-headline {
+    width: 285px;
+    float: right;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.trending-list li>a>p:hover { text-decoration: underline; }
+
+.trending-thumbnail {
+    height: 40px;
+    width: 40px;
+    float: right;
+}
+
+.page-footer {
+    clear: both;
+    height: 500px;
+    width: 1050px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.site-index-container {
+    height: 440px;
+    margin-top: 25px;
+    border-top: 4px double #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.site-index-column {
+    width: 165px;
+    height: 350px;
+    margin-top: 25px;
+    float: left;
+}
+
+.site-index-columns-holder div:nth-child(5) { width: 195px; }
+
+.site-index-columns-holder div:nth-child(6) {
+    width: 195px;
+    border-left: 1px solid #e2e2e2;
+    padding-left: 10px;
+}
