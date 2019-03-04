@@ -1,8 +1,11 @@
-/* body {
-  display: block;
-  width: 80%;
-  margin: auto;
-} */
+html, body, footer, header, section, div, h3, a, ul, li, span {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
 
 header {
   border-bottom: 1px solid #e2e2e2;
@@ -51,25 +54,18 @@ header {
   background-color: #326891;
 }
 /* /********************FOOTER*****************/
-html, body, footer, header, section, div, h3, a, ul, li, span {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
+
 
 body, footer, header, section{
 	display: block;
 }
-body { 
+body {
     line-height: 1;
     margin: 10px;
 }
 
-ol, ul { 
-    list-style: none; 
+ol, ul {
+    list-style: none;
 }
 
 a {
@@ -130,14 +126,14 @@ a {
     font-size: 12px;
     font-weight: 700;
     font-family: "nyt-franklin",arial,helvetica,sans-serif;
-    padding-bottom: 8px; 
+    padding-bottom: 8px;
 }
 
 .column-heading {
     font-size: 12px;
     font-weight: 700;
     font-family: "nyt-franklin",arial,helvetica,sans-serif;
-    padding-bottom: 8px; 
+    padding-bottom: 8px;
 }
 
 .index-nav-links li, .subscribe-nav-links li { padding: 4px 0; }
