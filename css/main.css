@@ -53,6 +53,48 @@ header {
 .header button:hover {
   background-color: #326891;
 }
+
+/*  MAIN CONTENT */
+.main-content h1 {
+  color: #121212;
+  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-weight: 700;
+  font-style: italic;
+
+  display: block;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  margin-top: 2em;
+}
+
+.photo {
+  display: block;
+  width: 55%;
+  margin: auto;
+}
+
+.photo img {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+.photo .caption {
+  display: inline;
+  margin-right: 7px;
+  color: #666;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+}
+
+.photo .credit {
+  display: inline;
+  color: #888;
+  font-size: 0.75rem;
+}
+
+
 /* /********************FOOTER*****************/
 
 
