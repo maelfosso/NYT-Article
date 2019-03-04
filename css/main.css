@@ -109,6 +109,7 @@ header {
     overflow: hidden;
     padding-bottom: 56.25%;
     width: 100%;
+    margin-top: 40px; 
 }
 
 .para{
@@ -126,6 +127,22 @@ header {
     margin-bottom: 2.20rem; 
 }
 
+figure{
+    margin-top: 20px; 
+}
+
+figcaption{
+    margin-top: 10px; 
+}
+
+.embed-text1{
+    margin-top: 1.40rem; 
+    font-size: 1.0rem; 
+}
+
+.embed-text2{
+    font-size: 0.80rem;
+}
 /* /********************FOOTER*****************/
 
 
