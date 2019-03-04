@@ -1,8 +1,8 @@
-body {
+/* body {
   display: block;
-  /*width: 80%;
-  margin: auto;*/
-}
+  width: 80%;
+  margin: auto;
+} */
 
 header {
   border-bottom: 1px solid #e2e2e2;
@@ -60,12 +60,12 @@ html, body, footer, header, section, div, h3, a, ul, li, span {
 	vertical-align: baseline;
 }
 
-footer, header, section {
+body, footer, header, section{
 	display: block;
 }
 body { 
     line-height: 1;
-    margin: 0;
+    margin: 10px;
 }
 
 ol, ul { 
