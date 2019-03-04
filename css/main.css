@@ -15,7 +15,7 @@ header {
 
 .header {
   display: flex;
-  width: 80%;
+  width: 100%;
   margin: auto;
   flex-direction: row;
   justify-content: space-between;
