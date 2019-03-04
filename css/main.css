@@ -94,6 +94,37 @@ header {
   font-size: 0.75rem;
 }
 
+/* /********************BODY-CONTENT*****************/
+.body-content{
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+.video-player {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    width: 100%;
+}
+
+.para{
+    font-size: 1.1875rem;
+    line-height: 1.8125rem;
+    margin-bottom: 1.25rem; 
+}
+.para a{
+    text-decoration: underline;
+}
+
+.para-author{
+    font-size: 0.80rem;
+    margin-top: 1.25rem; 
+    margin-bottom: 2.20rem; 
+}
 
 /* /********************FOOTER*****************/
 
