@@ -7,23 +7,6 @@ html, body, footer, header, section, div, h3, a, ul, li, span {
 	vertical-align: baseline;
 }
 
-.signup-section{
-    width: 180px;
-    float: right;
-    margin-top: 2535px;
-    margin-right: 100px;
-}
-
-.signup-section button{
-    width: 180px;
-    height: 32px;
-}
-
-.signup-text{
-    color: #888;
-    font-size: 0.82rem;
-}
-
 header {
   border-bottom: 1px solid #e2e2e2;
   background-color: white;
@@ -52,7 +35,7 @@ header {
   line-height: 19px;
 }
 
-.header button, .signup-section button{
+.header button, .float-section-signup button{
   display: inline-block;
   cursor: pointer;
   color: white;
@@ -71,7 +54,53 @@ header {
   background-color: #326891;
 }
 
+/* ***********FLOAT CONTENT ***************/
+
+.float-section {
+    width: 210px;
+    margin-top: 660px;
+    margin-right: 70px;
+    float: right;
+}
+
+.grid-images{
+    margin-top: 1000px;
+ }
+
+.image-text,.image-text:hover{
+    color: dimgray;
+    font-size: 0.85rem;
+    float: left;
+}
+
+.float-section-signup{
+    width: 180px;
+    margin-top: 620px;
+    margin-right: 100px;
+    float: right;
+    clear: right;
+}
+
+.float-section-signup button{
+    width: 180px;
+    height: 32px;
+}
+
+
+.signup-text{
+    color: #888;
+    font-size: 0.82rem;
+}
+ .float-section img{
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin-bottom: 8px;
+ }
+
+
 /*  MAIN CONTENT */
+
 .main-content h1 {
   color: #121212;
   font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
