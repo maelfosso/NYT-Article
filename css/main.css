@@ -171,16 +171,16 @@ header {
 }
 
 .more > h2, .picks > h2, .popular > h2 {
-	font-size: 1rem;
-	padding: 17px 20px 15px;
-  background-color: #fff;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  font-family: nyt-franklin,helvetica,arial,sans-serif;
-  font-weight: 700;
-  border-top: 1px solid #000;
-	padding-right: 0;
-  padding-left: 0;
+    font-size: 1rem;
+    padding: 17px 20px 15px;
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-weight: 700;
+    border-top: 1px solid #000;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .more-articles .article {
