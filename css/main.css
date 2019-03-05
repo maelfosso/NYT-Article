@@ -7,6 +7,23 @@ html, body, footer, header, section, div, h3, a, ul, li, span {
 	vertical-align: baseline;
 }
 
+.signup-section{
+    width: 180px;
+    float: right;
+    margin-top: 2535px;
+    margin-right: 100px;
+}
+
+.signup-section button{
+    width: 180px;
+    height: 32px;
+}
+
+.signup-text{
+    color: #888;
+    font-size: 0.82rem;
+}
+
 header {
   border-bottom: 1px solid #e2e2e2;
   background-color: white;
@@ -35,7 +52,7 @@ header {
   line-height: 19px;
 }
 
-.header button {
+.header button, .signup-section button{
   display: inline-block;
   cursor: pointer;
   color: white;
