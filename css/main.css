@@ -94,6 +94,109 @@ header {
   font-size: 0.75rem;
 }
 
+/* GRID ARTICLES */
+.articles {
+	display: flex;
+	flex-direction: row;
+	width: 56%;
+	margin: auto;
+}
+
+.more, .picks, .popular {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	/*border-top: 2px solid black;*/
+}
+
+.articles .more-picks {
+	width: 75%;
+	margin-right: 1em;
+}
+
+.articles .popular {
+	width: 25%;
+	margin-left: 1em;
+}
+
+.more-articles {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.more > h2, .picks > h2, .popular > h2 {
+	font-size: 1rem;
+	padding: 17px 20px 15px;
+  background-color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-weight: 700;
+  border-top: 1px solid #000;
+	padding-right: 0;
+  padding-left: 0;
+}
+
+.more-articles .article {
+	width: 250px;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+.more .img, .picks .img {
+	width: 100%;
+	height: 182px;
+	display: block;
+}
+
+.more .img-title, .picks .img-title {
+  padding-bottom: 4px;
+	font-size: 10px;
+	text-align: right;
+  color: rgb(153, 153, 153);
+  line-height: 1.23em;
+}
+
+.infos .title, .picks .title {
+  color: #121212;;
+	font-size: 18px;
+  line-height: 22px;
+	font-family: nyt-cheltenham;
+  font-weight: 500;
+}
+
+.infos .date, .picks .date {
+	letter-spacing: .3px;
+  color: #999;
+	font-size: .75rem;
+}
+
+div.more ul, div.picks ul {
+	-webkit-column-count: 3;
+  -moz-column-count: 3;
+	column-count: 3;
+	list-style: none;
+}
+
+div.more ul li, div.picks ul li {
+	height: 300px;
+}
+
+div.popular ul {
+	list-style: none;
+	margin-top: 15px;
+}
+
+div.popular ul li {
+	border-top: 1px solid rgb(226, 226, 226);
+	padding: 15px 0px;
+	color: rgb(18, 18, 18);
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+	font-weight: 600;
+  font-size: 1.125rem;
+}
+
 /* /********************BODY-CONTENT*****************/
 .body-content{
     display: block;
@@ -109,13 +212,13 @@ header {
     overflow: hidden;
     padding-bottom: 56.25%;
     width: 100%;
-    margin-top: 40px; 
+    margin-top: 40px;
 }
 
 .para{
     font-size: 1.1875rem;
     line-height: 1.8125rem;
-    margin-bottom: 1.25rem; 
+    margin-bottom: 1.25rem;
 }
 .para a{
     text-decoration: underline;
@@ -123,21 +226,21 @@ header {
 
 .para-author{
     font-size: 0.80rem;
-    margin-top: 1.25rem; 
-    margin-bottom: 2.20rem; 
+    margin-top: 1.25rem;
+    margin-bottom: 2.20rem;
 }
 
 figure{
-    margin-top: 20px; 
+    margin-top: 20px;
 }
 
 figcaption{
-    margin-top: 10px; 
+    margin-top: 10px;
 }
 
 .embed-text1{
-    margin-top: 1.40rem; 
-    font-size: 1.0rem; 
+    margin-top: 1.40rem;
+    font-size: 1.0rem;
 }
 
 .embed-text2{
