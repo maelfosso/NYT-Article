@@ -12,4 +12,4 @@ This have been done by
 * Mael FOSSO https://github.com/maelfosso
 
 # The Website
-Follow the link to access to the website https://rawcdn.githack.com/maelfosso/NYT-Article/c7bff3cbe55f95b68f7040f1b127de018d6993e6/index.html
+Follow the link to access to the website https://rawcdn.githack.com/maelfosso/NYT-Article/621903c19b5a8d7876dabad24a3ca99a71d787b1/index.html
