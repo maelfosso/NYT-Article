@@ -58,27 +58,26 @@ header {
 
 .float-section {
     width: 210px;
-    margin-top: 660px;
-    margin-right: 70px;
-    float: right;
+    position: absolute;
+    right: 0;
+    margin-top: 1530px;
+    margin-right: 90px;
 }
-
-.grid-images{
+/* .grid-images{
     margin-top: 1000px;
+ } */
+ .image-text,.image-text:hover{
+     color: dimgray;
+     font-size: 0.85rem;
+     float: left;
  }
-
-.image-text,.image-text:hover{
-    color: dimgray;
-    font-size: 0.85rem;
-    float: left;
-}
 
 .float-section-signup{
     width: 180px;
-    margin-top: 620px;
-    margin-right: 100px;
-    float: right;
-    clear: right;
+    position: absolute;
+    right: 0;
+    margin-top: 2400px;
+    margin-right: 120px;
 }
 
 .float-section-signup button{
