@@ -65,10 +65,10 @@ header {
 }
 
  .image-text,.image-text:hover{
-     color: dimgray;
-     font-size: 0.85rem;
-     float: left;
-		 display: flex;
+    color: dimgray;
+    font-size: 0.85rem;
+    float: left;
+	display: flex;
  }
 
 .float-section-signup{
